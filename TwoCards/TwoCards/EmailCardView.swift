@@ -98,7 +98,7 @@ extension EmailCardView {
         let predicate = NSPredicate(format: "SELF MATCHES[c] %@", regExString)
         let isValid = predicate.evaluate(with: emailTextField.text)
         
-        validationResultLabel.text = isValid ? "Валидация прошла успешно" : "Валидация не прошла"
+        validationResultLabel.text = isValid ? "Валидация прошла успешно" : "В поле ошибка"
         validationResultLabel.textColor = isValid ? .systemGreen : .systemRed
     }
     

@@ -27,7 +27,7 @@ class NameCardView: UIView {
     
     private lazy var nameTextField: UITextField = {
         let nameTextField = UITextField()
-        nameTextField.placeholder = "введите имя..."
+        nameTextField.placeholder = "Введите имя..."
         nameTextField.borderStyle = .roundedRect
         nameTextField.backgroundColor = .systemBackground
         nameTextField.translatesAutoresizingMaskIntoConstraints = false
