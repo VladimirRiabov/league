@@ -12,7 +12,12 @@ enum ProportionType {
     case keto
 }
 
-class NutrientsProportionCalculator {
+protocol NutrientsProportionCalculatorProtocol {
+    func calculateDailyNutrients(proportionType: ProportionType,
+                                 caloriesNumber: Int) -> Nutrients
+}
+
+class NutrientsProportionCalculator: NutrientsProportionCalculatorProtocol {
     
     func calculateDailyNutrients(proportionType: ProportionType,
                                  caloriesNumber: Int) -> Nutrients {

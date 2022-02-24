@@ -12,7 +12,11 @@ enum CaloriesCalculationType {
     case harrisBenedict
 }
 
-class CaloriesCalculator {
+protocol CaloriesCalculatorProtocol {
+    func calculateCalories(caloriesCalculatorType: CaloriesCalculationType) -> Int
+}
+
+class CaloriesCalculator: CaloriesCalculatorProtocol {
         
     func calculateCalories(caloriesCalculatorType: CaloriesCalculationType) -> Int {
         var targetCalories: Int
