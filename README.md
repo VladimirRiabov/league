@@ -4,8 +4,7 @@
 ##### Кейс с протоколами [ProtocolsRyabov](https://github.com/VladimirRiabov/league/tree/main/ProtocolsRyabov/)
 
 ### Занятие 02
-OOP -> POP,
-Make enum conform protocols Comparable [EmojiGame](https://github.com/VladimirRiabov/league/tree/main/EmojiGame/).
+##### OOP -> POP, Make enum conform protocols Comparable [EmojiGame](https://github.com/VladimirRiabov/league/tree/main/EmojiGame/).
 
 ### Занятие 03
 ##### SOLID [NutrientsCalculator](https://github.com/VladimirRiabov/league/tree/main/NutrientsCalculator/).
