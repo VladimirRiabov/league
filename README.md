@@ -10,3 +10,8 @@
 ##### SOLID [NutrientsCalculator](https://github.com/VladimirRiabov/league/tree/main/NutrientsCalculator/).
 
 ##### Две карты Email and Name. Верстка кодом. [TwoCards](https://github.com/VladimirRiabov/league/tree/main/TwoCards).
+
+### Занятие 04
+##### MVVM Classic TwoViewControllers [MVVM Classic](https://github.com/VladimirRiabov/league/tree/main/MVVM%20Classic).
+
+##### MVVM + CoreData OneViewController [MVVM CoreData](https://github.com/VladimirRiabov/league/tree/main/MVVM%20CoreData).
