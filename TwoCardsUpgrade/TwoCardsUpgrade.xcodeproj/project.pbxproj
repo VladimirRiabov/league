@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4775C9727C70916006A5261 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4775C9627C70916006A5261 /* AppDelegate.swift */; };
+		A4775CA027C70917006A5261 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4775C9F27C70917006A5261 /* Assets.xcassets */; };
+		A4775CA327C70917006A5261 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4775CA127C70917006A5261 /* LaunchScreen.storyboard */; };
+		A4775CB327C762FB006A5261 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4775CB227C762FB006A5261 /* CardView.swift */; };
+		A490016227CF79D5004D417E /* TwoCardsTogetherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A490016127CF79D5004D417E /* TwoCardsTogetherVC.swift */; };
+		A490016427CF79DE004D417E /* NameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A490016327CF79DE004D417E /* NameViewController.swift */; };
+		A490016627CF79E6004D417E /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A490016527CF79E6004D417E /* EmailViewController.swift */; };
+		A490016F27D02FCE004D417E /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A490016E27D02FCE004D417E /* IQKeyboardManagerSwift */; };
+		A490017327D0363C004D417E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A490017227D0363C004D417E /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A4775C9327C70916006A5261 /* TwoCardsUpgrade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwoCardsUpgrade.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4775C9627C70916006A5261 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4775C9F27C70917006A5261 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4775CA227C70917006A5261 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4775CA427C70917006A5261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4775CB227C762FB006A5261 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		A490016127CF79D5004D417E /* TwoCardsTogetherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoCardsTogetherVC.swift; sourceTree = "<group>"; };
+		A490016327CF79DE004D417E /* NameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameViewController.swift; sourceTree = "<group>"; };
+		A490016527CF79E6004D417E /* EmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
+		A490017227D0363C004D417E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4775C9027C70916006A5261 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A490016F27D02FCE004D417E /* IQKeyboardManagerSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4775C8A27C70916006A5261 = {
+			isa = PBXGroup;
+			children = (
+				A4775C9527C70916006A5261 /* TwoCards */,
+				A4775C9427C70916006A5261 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4775C9427C70916006A5261 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4775C9327C70916006A5261 /* TwoCardsUpgrade.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4775C9527C70916006A5261 /* TwoCards */ = {
+			isa = PBXGroup;
+			children = (
+				A4775C9627C70916006A5261 /* AppDelegate.swift */,
+				A490017F27D03F95004D417E /* Card */,
+				A490018427D041F1004D417E /* ParentViewController */,
+				A490018227D03FB1004D417E /* TwoChildViewControllers */,
+				A490018327D03FC1004D417E /* DetailViewController */,
+				A490018527D04209004D417E /* SystemFiles */,
+			);
+			path = TwoCards;
+			sourceTree = "<group>";
+		};
+		A490017F27D03F95004D417E /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				A4775CB227C762FB006A5261 /* CardView.swift */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		A490018227D03FB1004D417E /* TwoChildViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A490016327CF79DE004D417E /* NameViewController.swift */,
+				A490016527CF79E6004D417E /* EmailViewController.swift */,
+			);
+			path = TwoChildViewControllers;
+			sourceTree = "<group>";
+		};
+		A490018327D03FC1004D417E /* DetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A490017227D0363C004D417E /* DetailViewController.swift */,
+			);
+			path = DetailViewController;
+			sourceTree = "<group>";
+		};
+		A490018427D041F1004D417E /* ParentViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A490016127CF79D5004D417E /* TwoCardsTogetherVC.swift */,
+			);
+			path = ParentViewController;
+			sourceTree = "<group>";
+		};
+		A490018527D04209004D417E /* SystemFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A4775CA127C70917006A5261 /* LaunchScreen.storyboard */,
+				A4775C9F27C70917006A5261 /* Assets.xcassets */,
+				A4775CA427C70917006A5261 /* Info.plist */,
+			);
+			name = SystemFiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4775C9227C70916006A5261 /* TwoCardsUpgrade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4775CA727C70917006A5261 /* Build configuration list for PBXNativeTarget "TwoCardsUpgrade" */;
+			buildPhases = (
+				A4775C8F27C70916006A5261 /* Sources */,
+				A4775C9027C70916006A5261 /* Frameworks */,
+				A4775C9127C70916006A5261 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwoCardsUpgrade;
+			packageProductDependencies = (
+				A490016E27D02FCE004D417E /* IQKeyboardManagerSwift */,
+			);
+			productName = TwoCards;
+			productReference = A4775C9327C70916006A5261 /* TwoCardsUpgrade.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4775C8B27C70916006A5261 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					A4775C9227C70916006A5261 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = A4775C8E27C70916006A5261 /* Build configuration list for PBXProject "TwoCardsUpgrade" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4775C8A27C70916006A5261;
+			packageReferences = (
+				A490016D27D02FCE004D417E /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
+			productRefGroup = A4775C9427C70916006A5261 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4775C9227C70916006A5261 /* TwoCardsUpgrade */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4775C9127C70916006A5261 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4775CA327C70917006A5261 /* LaunchScreen.storyboard in Resources */,
+				A4775CA027C70917006A5261 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4775C8F27C70916006A5261 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4775CB327C762FB006A5261 /* CardView.swift in Sources */,
+				A490016227CF79D5004D417E /* TwoCardsTogetherVC.swift in Sources */,
+				A490016427CF79DE004D417E /* NameViewController.swift in Sources */,
+				A4775C9727C70916006A5261 /* AppDelegate.swift in Sources */,
+				A490016627CF79E6004D417E /* EmailViewController.swift in Sources */,
+				A490017327D0363C004D417E /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A4775CA127C70917006A5261 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4775CA227C70917006A5261 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4775CA527C70917006A5261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4775CA627C70917006A5261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4775CA827C70917006A5261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G57YK5NT2Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TwoCards/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TwoCardsUpgrade;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oiuyt.TwoCardsUpgrade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4775CA927C70917006A5261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G57YK5NT2Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TwoCards/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TwoCardsUpgrade;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oiuyt.TwoCardsUpgrade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4775C8E27C70916006A5261 /* Build configuration list for PBXProject "TwoCardsUpgrade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4775CA527C70917006A5261 /* Debug */,
+				A4775CA627C70917006A5261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4775CA727C70917006A5261 /* Build configuration list for PBXNativeTarget "TwoCardsUpgrade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4775CA827C70917006A5261 /* Debug */,
+				A4775CA927C70917006A5261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A490016D27D02FCE004D417E /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A490016E27D02FCE004D417E /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A490016D27D02FCE004D417E /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A4775C8B27C70916006A5261 /* Project object */;
+}
