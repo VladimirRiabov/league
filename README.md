@@ -17,4 +17,7 @@
 ##### MVVM + CoreData OneViewController [MVVM CoreData](https://github.com/VladimirRiabov/league/tree/main/MVVM%20CoreData).
 
 ### Занятие 05
-##### TwoCards NavigationController Push/Present [TwoCardsUpgrade](https://github.com/VladimirRiabov/league/tree/main/TwoCardsUpgrade).
+##### TwoCards NavigationController Push/Present [TwoCardsHomewWork](https://github.com/VladimirRiabov/league/tree/main/TwoCards5HoweWork).
+
+### Занятие 06
+##### TabBar NavController Coordinator Push/Present [CoordinatorTabbbarStudy](https://github.com/VladimirRiabov/league/tree/main/CoordinatorTabbbarStudy).
