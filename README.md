@@ -21,3 +21,6 @@
 
 ### Занятие 06
 ##### TabBar NavController Coordinator Push/Present [CoordinatorTabbbarStudy](https://github.com/VladimirRiabov/league/tree/main/CoordinatorTabbbarStudy).
+
+### Занятие 07
+##### Expandable sections [Expandable sections](https://github.com/VladimirRiabov/league/tree/main/Expandable%20sections).
