@@ -24,3 +24,6 @@
 
 ### Занятие 07
 ##### Expandable sections [Expandable sections](https://github.com/VladimirRiabov/league/tree/main/Expandable%20sections).
+
+### Занятие 08
+##### Table View\ Deleting\ Drag And Drop\ Adding [TableViewDragAndDrop](https://github.com/VladimirRiabov/league/tree/main/TableViewDragAndDrop)
