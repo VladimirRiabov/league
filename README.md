@@ -28,7 +28,10 @@
 ### Занятие 08
 ##### Table View\ Deleting\ Drag And Drop\ Adding [TableViewDragAndDrop](https://github.com/VladimirRiabov/league/tree/main/TableViewDragAndDrop)
 
-### Занятие 08
+### Занятие 09
 ##### FunctionalLayout Выбор опция для приложения, самовалидирующийся textField с анимацией [FunctionalLayoutHW](https://github.com/VladimirRiabov/league/tree/main/FunctionalLayoutHW/)
+
+### Занятие 10
+##### Network Layer [URLSessionLesson10](https://github.com/VladimirRiabov/league/tree/main/URLSessionLesson10)
 
 
